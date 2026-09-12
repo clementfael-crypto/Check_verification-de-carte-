@@ -336,3 +336,42 @@ footer {
   }
 
 }
+.reviews {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reviews h2 {
+  margin-bottom: 25px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.review-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.stars {
+  color: #f5b301;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.review-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.review-card strong {
+  display: block;
+  margin-top: 15px;
+}
